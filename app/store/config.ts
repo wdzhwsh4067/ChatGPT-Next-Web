@@ -53,6 +53,10 @@ const ENABLE_GPT4 = true;
 
 export const ALL_MODELS = [
   {
+    name: "chatbit-1.0",
+    available: true,
+  },
+  {
     name: "gpt-4",
     available: ENABLE_GPT4,
   },
